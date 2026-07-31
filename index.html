@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quotation Request | Al Jefoon Tents</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="header">
+<h1>Request a Quotation</h1>
+<p>Al Jefoon Tents - Event & Structure Solutions</p>
+</div>
+
+
+<form id="quoteForm">
+
+
+<div class="card">
+
+<h2>Customer Information</h2>
+
+<input type="text" id="company" placeholder="Company Name *" required>
+
+<input type="text" id="contact" placeholder="Contact Person *" required>
+
+<input type="tel" id="phone" placeholder="Mobile Number *" required>
+
+<input type="email" id="email" placeholder="Email Address *" required>
+
+</div>
+
+
+
+<div class="card">
+
+<h2>Event Details</h2>
+
+<input type="text" id="eventType" placeholder="Event Type">
+
+<label>Event Date *</label>
+<input type="date" id="eventDate" required>
+
+<label>Dismantling Date</label>
+<input type="date" id="dismantlingDate">
+
+<input type="text" id="venue" placeholder="Venue">
+
+<select id="emirate" required>
+
+<option value="">Select Emirate *</option>
+<option>Abu Dhabi</option>
+<option>Dubai</option>
+<option>Sharjah</option>
+<option>Ajman</option>
+<option>Umm Al Quwain</option>
+<option>Ras Al Khaimah</option>
+<option>Fujairah</option>
+
+</select>
+
+</div>
+
+
+
+<div class="card">
+
+<h2>Services Required</h2>
+
+<div class="services">
+
+<label><input type="checkbox" value="Marquee Tent"> Marquee Tent</label>
+
+<label><input type="checkbox" value="Arabic Tent"> Arabic Tent</label>
+
+<label><input type="checkbox" value="PVC Tent"> PVC Tent</label>
+
+<label><input type="checkbox" value="Pagoda Tent"> Pagoda Tent</label>
+
+<label><input type="checkbox" value="Tensile Structure"> Tensile Structure</label>
+
+<label><input type="checkbox" value="Parking Shades"> Parking Shades</label>
+
+<label><input type="checkbox" value="Stage"> Stage</label>
+
+<label><input type="checkbox" value="Chairs"> Chairs</label>
+
+<label><input type="checkbox" value="Tables"> Tables</label>
+
+<label><input type="checkbox" value="Air Conditioners"> Air Conditioners</label>
+
+<label><input type="checkbox" value="Lighting"> Lighting</label>
+
+<label><input type="checkbox" value="Sound System"> Sound System</label>
+
+<label><input type="checkbox" value="Generator"> Generator</label>
+
+<label><input type="checkbox" value="Catering Equipment"> Catering Equipment</label>
+
+<label><input type="checkbox" value="Steel Fabrication"> Steel Fabrication</label>
+
+</div>
+
+</div>
+
+
+
+<div class="card">
+
+<h2>Additional Requirements</h2>
+
+<textarea id="notes" placeholder="Tell us about your requirements"></textarea>
+
+</div>
+
+
+<button type="submit">
+Submit Quotation Request
+</button>
+
+
+<div id="result"></div>
+
+
+</form>
+
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
